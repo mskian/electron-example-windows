@@ -1,0 +1,24 @@
+{
+  "name": "electron-example",
+  "version": "0.0.1",
+  "description": "Example Desktop APP Build Using Electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package-win": "electron-packager . electron-example --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=MSKIAN --version-string.FileDescription=MSKIAN --version-string.ProductName=\"Electron Example\"",
+    "create-installer-win": "node installers/windows/createinstaller.js"
+  },
+  "keywords": [
+    "electron-example"
+  ],
+  "author": "Santhosh Veer",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1",
+    "electron-winstaller": "^3.0.4"
+  },
+  "dependencies": {
+    "electron-context-menu": "^0.12.0"
+  }
+}
