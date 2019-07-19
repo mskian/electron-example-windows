@@ -7,9 +7,6 @@ node_js:
   - "stable"
   - "lts/*"
 
-mono:
-  - latest
-
 branches:
   only:
     - master
@@ -22,6 +19,7 @@ before_install:
   - sudo dpkg --add-architecture i386
   - sudo apt-get -qq update
   - sudo apt-get install wine1.6
+  - sudo apt-get install mono-complete
 
 before_script:
   - "npm install -g electron --unsafe-perm=true"
