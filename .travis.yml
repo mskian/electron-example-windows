@@ -16,7 +16,9 @@ cache:
 
 before_script:
   - "npm install -g electron --unsafe-perm=true"
+  - "npm install electron-packager -g"
   - "yarn"
 
 script:
-  - electron main.js
+  - yarn package-win
+  - yarn create-installer-win
