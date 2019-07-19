@@ -14,7 +14,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.2.6",
-    "electron-packager": "^14.0.0",
+    "electron-packager": "^14.0.2",
     "electron-winstaller": "^3.0.4"
   },
   "dependencies": {
