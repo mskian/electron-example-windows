@@ -1,10 +1,13 @@
+sudo: false
+
 dist: xenial
-
 language: node_js
-
 node_js:
   - "stable"
   - "lts/*"
+
+os:
+  - linux
 
 branches:
   only:
@@ -13,6 +16,11 @@ branches:
 cache:
   directories:
   - node_modules
+
+before_install:
+  - sudo dpkg --add-architecture i386
+  - sudo apt-get -qq update
+  - sudo apt-get install wine4.0.1
 
 before_script:
   - "npm install -g electron --unsafe-perm=true"
