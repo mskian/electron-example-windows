@@ -1,8 +1,8 @@
-# Electron Linux Windows APPlication
+# Electron Example Windows APPlication
 
-[![dependencies Status](https://david-dm.org/mskian/electron-example-windows/status.png)](https://david-dm.org/mskian/electron-example-windows)
+[![dependencies Status](https://david-dm.org/mskian/electron-example-windows/status.png)](https://david-dm.org/mskian/electron-example-windows) [![Build Status](https://travis-ci.org/mskian/electron-example-windows.svg?branch=master)](https://travis-ci.org/mskian/electron-example-windows)  
 
-Convert your website/blog into Windows Application Build using Electron
+> Convert your website/blog into Windows Application Build using Electron  
 
 ## Requirements
 
