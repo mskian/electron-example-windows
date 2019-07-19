@@ -18,7 +18,7 @@ cache:
 before_install:
   - sudo dpkg --add-architecture i386
   - sudo apt-get -qq update
-  - sudo apt-get install wine4.0.1
+  - sudo apt install --install-recommends winehq-stable
 
 before_script:
   - "sudo npm install -g electron --unsafe-perm=true"
