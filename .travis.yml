@@ -1,13 +1,11 @@
-sudo: false
+sudo: true
 
 dist: xenial
 language: node_js
+
 node_js:
   - "stable"
   - "lts/*"
-
-os:
-  - linux
 
 branches:
   only:
@@ -23,8 +21,8 @@ before_install:
   - sudo apt-get install wine4.0.1
 
 before_script:
-  - "npm install -g electron --unsafe-perm=true"
-  - "npm install electron-packager -g"
+  - "sudo npm install -g electron --unsafe-perm=true"
+  - "sudo npm install electron-packager -g"
   - "yarn"
 
 script:
