@@ -13,7 +13,7 @@
   "author": "Santhosh Veer",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^5.0.7",
+    "electron": "^5.0.8",
     "electron-packager": "^14.0.2",
     "electron-winstaller": "^3.0.4"
   },
