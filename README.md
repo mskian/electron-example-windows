@@ -66,7 +66,7 @@ yarn create-installer-win
 - Find the Below & Update your Blog/website URL
 
 ```js
-var weburl = 'https://status.santhoshveer.com';
+var weburl = 'https://task.santhoshveer.com';
 ```
 
 - Add Background Color Find this Line `backgroundColor: '#15171A',` & Replace it with your Background Color code

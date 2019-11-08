@@ -14,7 +14,7 @@ const {
 const contextMenu = require('electron-context-menu');
 const shell = require('electron').shell
 var path = require('path');
-var weburl = 'https://status.santhoshveer.com';
+var weburl = 'https://task.santhoshveer.com';
 
 var menu = Menu.buildFromTemplate([{
 	label: 'Menu',
