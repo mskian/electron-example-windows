@@ -396,10 +396,10 @@ electron-packager@^15.2.0:
     semver "^7.1.3"
     yargs-parser "^20.0.0"
 
-electron-winstaller@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-4.0.2.tgz#e3aa7e95db8232eeb337b28c11ad80b93dcafe6d"
-  integrity sha512-tYmzIyi+W0CXd9o/jmR0VT+vwJ+nOaE/dQz8f64IlbQ/J9d2lpwsmmOKxx6veAVKeYiJHYQHR1eYsLzznNzd5g==
+electron-winstaller@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/electron-winstaller/-/electron-winstaller-5.0.0.tgz#0db968f34d498b16c69566a40848f562e70e7bcc"
+  integrity sha512-V+jFda7aVAm0htCG8Q95buPUpmXZW9ujh1HdhSlWY6y4QnJnw4TfrmxTlQWV4p2ioF/71JMI/1YF+/qbSICogA==
   dependencies:
     asar "^2.0.1"
     debug "^4.1.1"
