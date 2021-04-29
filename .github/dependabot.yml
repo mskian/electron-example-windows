@@ -1,0 +1,11 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "06:10"
+    timezone: Asia/Kolkata
+  open-pull-requests-limit: 10
+  reviewers:
+  - mskian
