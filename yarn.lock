@@ -325,10 +325,10 @@ duplexer3@^0.1.4:
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
   integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
 
-electron-context-menu@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/electron-context-menu/-/electron-context-menu-2.5.1.tgz#8f4c5e65f648fb3574ecd05de2a1296bd2194bc5"
-  integrity sha512-06IahxlIKsiuGaLtPa6mhzWFTfg6nC7btbt85mQVXpvlDuiZwgwI34hYQSNTUqwDoCHpfhE5Qx2GdAsJtpSbeg==
+electron-context-menu@^2.5.2:
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/electron-context-menu/-/electron-context-menu-2.5.2.tgz#7f2383f011d0d53f282300e0d80b44e2f64c16a7"
+  integrity sha512-1cEQR6fA9ktFsRBc+eXPwvrOgAPytUD7rUV4iBAA5zTrLAPKokJ23xeMjcK2fjrDPrlFRBxcLz0KP+GUhMrSCQ==
   dependencies:
     cli-truncate "^2.1.0"
     electron-dl "^3.1.0"
