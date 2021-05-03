@@ -18,6 +18,6 @@
     "electron-winstaller": "^5.0.0"
   },
   "dependencies": {
-    "electron-context-menu": "^2.5.2"
+    "electron-context-menu": "^3.0.0"
   }
 }
