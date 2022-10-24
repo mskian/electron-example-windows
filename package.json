@@ -15,7 +15,7 @@
   "devDependencies": {
     "electron": "^21.2.0",
     "electron-packager": "^16.0.0",
-    "electron-winstaller": "^5.0.0"
+    "electron-winstaller": "^5.1.0"
   },
   "dependencies": {
     "electron-context-menu": "^3.5.0"
